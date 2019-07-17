@@ -21,11 +21,7 @@ int main(int argc, char *argv[])
    double bn=0.125;
    double ah=0.07;
    double bh=1./(1+exp(3.0));
-   //double I[1000];
-   //int i;
-   //I[i] = 0;
-// for(int i = 2500; i <= 7500; i++);
-    //   I[i] = (2+(rand()%2)/500);
+  
    m1 = am /(am+bm);
    n1 = an/(an+bn);
    h1 = ah/(ah +bh);
